@@ -1,0 +1,85 @@
+/* header {
+    width: 90%;
+    position: absolute;
+    margin: 1rem 5%;  /* unit , pixels, in, rem
+    display: flex;
+} */
+
+#hero { /* for id=hero */
+    /* background-image: url('./../images/bg.png'); */
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    background-color: rgb(2, 26, 26);
+    border-radius: 8px;
+}
+.title-container { /* for class="title-container" */
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 5%;
+    z-index: 99;
+    position: relative;
+}
+.title {
+ margin-top: 45px;
+ margin-left: 30rem;
+ 
+}
+
+/* nav {
+    color: white;
+} */
+
+nav ul {   /*for the ul tag inside the nav tag */
+    padding: 15px;
+    display:flex; /* flex container has a horizontal layout */
+    justify-content: center;
+    font-size: 35px;
+    /* padding-top:40px; */
+}
+
+nav ul li {  /* for the li tag inside nav--ul tags */
+    list-style-type: none;
+    margin-right: 6px;
+    cursor: pointer;
+    padding: 10px;
+ 
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:visited,
+nav ul li a:link, 
+nav ul li a:hover {
+    color: rgb(253, 247, 247);
+}
+
+nav ul li.active {
+    border-bottom: 1px solid #149fcb;
+    color: #149fcb;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+.subtitle{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(222, 228, 223); */
+    margin-top: 70px;
+}
+.desc{
+    font-size: 30px;
+    margin-top: 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.form{
+    width:100%;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
